@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  exportPathMap: async function (
+  generateStaticParams: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId }
   ) {
